@@ -1,0 +1,11 @@
+.node_modules/
+.vercel/
+.env
+.env.*
+!.env.example
+*.log
+.x_bearer*
+.x_chunks/
+.cron_secret_tmp
+.deploy-*
+*.tmp

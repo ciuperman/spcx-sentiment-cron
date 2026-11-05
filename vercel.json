@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "crons": [
+    {
+      "path": "/api/cron/daily",
+      "schedule": "0 21 * * *"
+    }
+  ],
+  "functions": {
+    "api/cron/daily.js": {
+      "maxDuration": 300,
+      "includeFiles": "lib/**"
+    }
+  }
+}
